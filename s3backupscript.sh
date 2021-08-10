@@ -14,5 +14,5 @@ LIST=$(s3cmd ls s3://bucketname/folder/)
 #echo "Backup sync is completed"
 #echo " "
 #echo "All items present in AWS s3Bucket:::-- $BUCKET is listed below:"
-#LIST=$(s3cmd ls s3://deepson-bucket/dbbackup/)
+#LIST=$(s3cmd ls s3://bucketname/folder/)
 echo "$LIST"
